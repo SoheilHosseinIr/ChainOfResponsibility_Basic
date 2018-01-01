@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7EBC09BE1FF9A63500C9011F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09BD1FF9A63500C9011F /* main.swift */; };
+		7EBC09C51FF9A96C00C9011F /* MoneyPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09C41FF9A96C00C9011F /* MoneyPile.swift */; };
+		7EBC09C71FF9A9AA00C9011F /* ATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09C61FF9A9AA00C9011F /* ATM.swift */; };
+		7EBC09CF1FF9AD9900C9011F /* Expenditure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09CE1FF9AD9900C9011F /* Expenditure.swift */; };
+		7EBC09D11FF9ADBB00C9011F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09D01FF9ADBB00C9011F /* Employee.swift */; };
+		7EBC09D31FF9ADDC00C9011F /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09D21FF9ADDC00C9011F /* Chain.swift */; };
+		7EBC09D51FF9AE0400C9011F /* CEO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09D41FF9AE0400C9011F /* CEO.swift */; };
+		7EBC09D71FF9AE2200C9011F /* Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBC09D61FF9AE2200C9011F /* Boss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,16 @@
 /* Begin PBXFileReference section */
 		7EBC09BA1FF9A63500C9011F /* ChainOfResponsibility_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBC09BD1FF9A63500C9011F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7EBC09C41FF9A96C00C9011F /* MoneyPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyPile.swift; sourceTree = "<group>"; };
+		7EBC09C61FF9A9AA00C9011F /* ATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATM.swift; sourceTree = "<group>"; };
+		7EBC09C81FF9AA3900C9011F /* chain_pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chain_pattern.jpg; sourceTree = "<group>"; };
+		7EBC09C91FF9AA3900C9011F /* problem.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = problem.svg; sourceTree = "<group>"; };
+		7EBC09CA1FF9AA3900C9011F /* solve.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = solve.svg; sourceTree = "<group>"; };
+		7EBC09CE1FF9AD9900C9011F /* Expenditure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenditure.swift; sourceTree = "<group>"; };
+		7EBC09D01FF9ADBB00C9011F /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		7EBC09D21FF9ADDC00C9011F /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		7EBC09D41FF9AE0400C9011F /* CEO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEO.swift; sourceTree = "<group>"; };
+		7EBC09D61FF9AE2200C9011F /* Boss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +74,43 @@
 		7EBC09BC1FF9A63500C9011F /* ChainOfResponsibility_Basic */ = {
 			isa = PBXGroup;
 			children = (
+				7EBC09CD1FF9AD8900C9011F /* Method1 */,
+				7EBC09CC1FF9AC6100C9011F /* Resources */,
+				7EBC09CB1FF9AC5500C9011F /* Method */,
 				7EBC09BD1FF9A63500C9011F /* main.swift */,
 			);
 			path = ChainOfResponsibility_Basic;
+			sourceTree = "<group>";
+		};
+		7EBC09CB1FF9AC5500C9011F /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				7EBC09C41FF9A96C00C9011F /* MoneyPile.swift */,
+				7EBC09C61FF9A9AA00C9011F /* ATM.swift */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		7EBC09CC1FF9AC6100C9011F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EBC09C81FF9AA3900C9011F /* chain_pattern.jpg */,
+				7EBC09C91FF9AA3900C9011F /* problem.svg */,
+				7EBC09CA1FF9AA3900C9011F /* solve.svg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7EBC09CD1FF9AD8900C9011F /* Method1 */ = {
+			isa = PBXGroup;
+			children = (
+				7EBC09CE1FF9AD9900C9011F /* Expenditure.swift */,
+				7EBC09D01FF9ADBB00C9011F /* Employee.swift */,
+				7EBC09D21FF9ADDC00C9011F /* Chain.swift */,
+				7EBC09D41FF9AE0400C9011F /* CEO.swift */,
+				7EBC09D61FF9AE2200C9011F /* Boss.swift */,
+			);
+			path = Method1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EBC09C71FF9A9AA00C9011F /* ATM.swift in Sources */,
+				7EBC09CF1FF9AD9900C9011F /* Expenditure.swift in Sources */,
+				7EBC09C51FF9A96C00C9011F /* MoneyPile.swift in Sources */,
+				7EBC09D31FF9ADDC00C9011F /* Chain.swift in Sources */,
+				7EBC09D71FF9AE2200C9011F /* Boss.swift in Sources */,
+				7EBC09D11FF9ADBB00C9011F /* Employee.swift in Sources */,
+				7EBC09D51FF9AE0400C9011F /* CEO.swift in Sources */,
 				7EBC09BE1FF9A63500C9011F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,8 +294,11 @@
 		7EBC09C21FF9A63500C9011F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP6NNH83Z9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -245,8 +306,11 @@
 		7EBC09C31FF9A63500C9011F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZP6NNH83Z9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
