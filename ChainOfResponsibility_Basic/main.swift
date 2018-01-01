@@ -38,6 +38,7 @@ print(atm.canWithdraw(amount: 30))  /// Can withdraw - 1x20, 2x10
 */
 
 /// Method1
+/// from Git
 let employee = Employee()
 let boss = Boss()
 let ceo = CEO()
